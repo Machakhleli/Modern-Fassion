@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/* burgermenu */
+.container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #0f6171;
+    height: 100px;
+    color: white;
+
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #0f6171;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+
+}
+
+.nav #myLinks {
+
+    display: none;
+
+}
+
+.nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 37px;
+    display: block;
+
+}
+
+.nav a.icons {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    color: white;
+    font-size: 16px;
+}
+
+/* burgermenuend */
+
+/* section one*/
+.sec1 {
+    width: 100%;
+    height: 300px;
+}
+
+.sec1 .sec1-cards {
+    display: flex;
+
+}
+
+.sec1-card1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/src/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec1-card2 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#264b52, #19818f);
+    position: relative;
+
+}
+
+.sec1-card2 img {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -250px;
+}
+
+.sec1-card1-item1 {
+    width: 360px;
+    height: 500px;
+    background-image: linear-gradient(#a58243, #0f6171);
+    margin-left:600px;
+    margin-top: 75px;}
